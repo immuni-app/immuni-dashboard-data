@@ -7,14 +7,13 @@
 <!-- Badges -->
 <div align="center">
     <!-- CoC -->
-		<a href="CODE-OF-CONDUCT.md">
+    <a href="CODE-OF-CONDUCT.md">
       <img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" />
     </a>
     <!-- last commit -->
-		<a href="https://github.com/immuni-app/immuni-dashboard-data/commits/master">
+    <a href="https://github.com/immuni-app/immuni-dashboard-data/commits/master">
       <img src="https://img.shields.io/github/last-commit/immuni-app/immuni-dashboard-data" />
     </a>
-    
 </div>
 
 <br />
@@ -28,23 +27,19 @@
     <a href="https://github.com/immuni-app/documentation">
       Documentation
     </a>
-
   </h3>
 </div>
 
 # Description
 
-<div>
-In this repository, for communication purposes, are made available the data collected by the National contact-tracing system "Immuni".
+This repository contains the data collected by the National contact-tracing system "Immuni".
 
 In particular, the following data are uploaded every day at 5 pm (UTC):
-- daily download trend for both iOS and Android
-- daily trend of both positive users and notifications sent, at national level.
+- daily download trend for both the iOS and the Android platforms;
+- daily trend of both positive users and notifications sent, at national level;
 - weekly trend of both positive users and notifications sent, at regional level.
 
-Furthermore, we have developed a dashboard for the interactive visualization of this data, reachable at the following link [immuni-dashboard](https://www.immuni.italia.it/dashboard.html).
-</div>
-
+Furthermore, it is possible to check the interactive visualization of this dataset on the dedicated [immuni dashboard](https://www.immuni.italia.it/dashboard.html).
 
 # Contents
 
@@ -52,7 +47,6 @@ Furthermore, we have developed a dashboard for the interactive visualization of 
 - [Data format](#data-format)
 - [Data update](#data-update)
 - [License](#license)
-
 
 # Repository structure
 ```
@@ -92,4 +86,4 @@ The version control system  in place provides attribution for specific lines of 
 
 ## License details
 
-The license for this repo is a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY-SA 4.0). Please see the [LICENSE](LICENSE) file for extended reference.
+The license for this repo is a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Please see the [LICENSE](LICENSE) file for extended reference.
