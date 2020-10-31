@@ -3,7 +3,7 @@
 ## Data update
 - Every day at 5 pm (UTC). 
 
-Please note that if the data on downloads from Apple and Google are not yet available at the designated time, the update is postponed to the next day.
+**Please note** that if the data on downloads from Apple and Google are not yet available at the designated time, the update is postponed to the next day.
 
 ## Data format
 
