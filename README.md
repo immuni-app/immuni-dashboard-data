@@ -38,6 +38,7 @@ In particular, the following data are uploaded every day at 5 pm (UTC):
 - daily download trend for both the iOS and the Android platforms;
 - daily trend of both positive users and notifications sent, at national level;
 - weekly trend of both positive users and notifications sent, at regional level.
+- monthly trend of both positive users and notifications sent, at regional level.
 
 Furthermore, it is possible to check the interactive visualization of this dataset on the dedicated [immuni dashboard](https://www.immuni.italia.it/dashboard.html).
 
@@ -61,6 +62,10 @@ immuni-dashboard-data/
 │   ├── andamento-settimanale-dati-regionali-latest.json
 │   ├── andamento-settimanale-dati-regionali.csv
 │   ├── andamento-settimanale-dati-regionali.json
+│   ├── andamento-mensile-dati-regionali-latest.csv
+│   ├── andamento-mensile-dati-regionali-latest.json
+│   ├── andamento-mensile-dati-regionali.csv
+│   ├── andamento-mensile-dati-regionali.json
 ```
 
 # Data format
