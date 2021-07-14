@@ -1,10 +1,11 @@
-# Regional trend data
+# Regional trend data (monthly and weekly)
 
 ## Data update
-- Every Monday at 5 pm (UTC).
+- Every Monday at 5 pm (UTC) for weekly aggregation.
+- Every beginning of the month at 5 pm (UTC) for monthly aggregation.
 
 ## Data format
-
+### For weekly aggregation
 **Reference file:** andamento-settimanale-dati-regionali.csv<br>
 **Reference file with latest data:**: andamento-settimanale-dati-regionali-latest.csv<br>
 
@@ -17,7 +18,22 @@
 | **long**                         | longitudine    | longitude         | WGS84                         | 13.871007974999998          |
 | **notifiche_inviate**  | numero di notifiche inviate nella settimana di riferimento*    | number of notifications sent in the reference week*     | number                         | 3         |
 | **utenti_positivi**      | numero di utenti positivi che hanno caricato le proprie chiavi nella settimana di riferimento*   | number of positive users who uploaded their keys in the reference week*   | number                        | 3                   |
-|
+
+### For monthly aggregation
+**Reference file:** andamento-mensile-dati-regionali.csv<br>
+**Reference file with latest data:**: andamento-mensile-dati-regionali-latest.csv<br>
+
+| Field name                  | Description (ITA)                       | Description                            | Format                       | Example             |
+|-----------------------------|-----------------------------------|----------------------------------------|-------------------------------|---------------------|
+| **mese**                        | primo giorno del mese di riferimento.           | first day of the reference month.                    | YYYY-MM-DD HH:MM:SS | 2020-06-01 00:00:00 |
+| **denominazione_regione**                       | denominazione della Regione | name of the Region           |  string     |         Abruzzo         |
+| **codice_regione**              | codice della regione (ISTAT 2019) | code of the region (ISTAT 2019)                        | number      | 13            |
+| **lat**       | latitudine       | latitude                     | WGS84             | 42.4564388275            |
+| **long**                         | longitudine    | longitude         | WGS84                         | 13.871007974999998          |
+| **notifiche_inviate**  | numero di notifiche inviate nella settimana di riferimento*    | number of notifications sent in the reference week*     | number                         | 3         |
+| **utenti_positivi**      | numero di utenti positivi che hanno caricato le proprie chiavi nella settimana di riferimento*   | number of positive users who uploaded their keys in the reference week*   | number                        | 3                   |
+
+
 These data are also available in a json format.
 <br>
 
